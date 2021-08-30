@@ -1,0 +1,220 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+ height:100px;
+width:100%;
+background-image:linear-gradient(to right,red,orange);
+}
+#logobox{
+ float:right;
+width:30%;
+height:100px;
+background-color:rgb(30 210 127)
+}
+ #h1header{
+float: left; 
+line-height: 100px;
+padding:0 15px;
+}
+#logo{
+height: 100px;
+border-radius: 50%;
+} 
+nav a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+display: inline-block;
+font-size: large;
+}
+nav li{
+display: inline-block;
+line-height: 100px;
+width:100px;
+text-align: center;
+}
+nav{
+width:70%;
+text-align: center;
+}
+nav a:hover{
+background-color: white;
+color:black;
+width: 100%;
+}
+main{
+    animation-name: backgroundchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 450px;
+    background-color: red;
+    border-top:3px solid red
+
+}
+@keyframes backgroundchange{
+0%{
+background-color: rgba(255, 255, 255, 0.205);
+
+}
+25%{
+    background-color: rgb(40, 168, 36);
+}
+50%{
+    background-color: rgb(77, 29, 29);
+}
+100%{
+    background-color:rgba(57, 21, 73, 0);
+}
+5%{
+    background-color:blanchedalmond
+}
+15%{
+    background-color:
+
+
+}
+}
+aside{
+width: 30%;
+height: 100%;
+background-color: indianred;
+text-align: center;
+float: left;
+}
+aside img{
+diplay:none;
+
+}
+#h1aside{
+    padding:20px 0;
+    border-bottom: 3px solid black;
+}
+#article{
+    float: left;
+    width: 70%;
+    height:450px;
+    position: relative;
+
+}
+#box{
+padding:15px;
+text-align: center;
+position:absolute;
+width: 180px;
+background-color: tomato;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+#box h1{
+    border-bottom:3px solid red;
+    padding: 15px;
+
+}
+#box p{
+font-family:Arial, Helvetica, sans-serif;
+text-align: justify;
+}
+
+#contact-box{
+width:100%;
+display:flex;
+margin-top: 15px;
+justify-content: center;
+
+}
+#contact-box img{
+width:30px;
+border-bottom: 2px double red;
+padding: 10px;
+margin-top: 15px;
+
+}
+ #contact-box img:hover{
+    width:55px;
+ border-bottom: 5px solid black; 
+}
+#oo{
+    width: 250px;
+}
+#f-id{
+width:100%;
+height: 100px;;
+clear: both;
+background-color:black;
+
+}
+#mar h1{
+    color: white;
+    
+}
+#f-id img{
+margin-left: 50px;
+margin-right: 50px;
+height: 100px;
+width:200px;
+ }
+
+@media screen and(orientation:portrait){
+
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and(orientation:landscape){
+
+    body{
+        background-color:orangered;
+    }
+}
+
+    @media only screen and(max-width:801px){
+header,main{
+    height:auto;
+}
+#logobox{
+    width:100%;
+    text-align: center;
+}
+
+#h1 header{
+    float:none;
+}
+#logo{
+    float:none;
+}
+span a{
+    text-decoration: none;
+
+}
+nav{
+    width:100%;
+
+}
+aside{
+    width:100%;
+
+}
+
+#article{
+    height:230px;
+    width:100%;
+    background-color: blue;
+}
+
+    }
+    
+    @media only screen and(max-width:500px){
+        nav li{
+            display:block;
+            width:100%;
+        }
+    }
+  
+
+    
+    
